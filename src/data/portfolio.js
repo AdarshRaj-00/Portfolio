@@ -18,12 +18,12 @@ export const skillCategories = [
   {
     category: 'Programming Languages',
     icon: 'Code',
-    skills: ['Java', 'JavaScript', 'SQL', 'HTML', 'CSS']
+    skills: ['Java', 'JavaScript', 'SQL']
   },
   {
     category: 'Frontend',
     icon: 'Layout',
-    skills: ['React']
+    skills: ['HTML', 'CSS', 'React']
   },
   {
     category: 'Backend',

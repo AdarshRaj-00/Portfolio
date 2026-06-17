@@ -1475,12 +1475,74 @@ h1, h2, h3, h4, p {
   width: 100%;
 }
 
+/* Contact Layout & Form Styling */
+.contact-layout {
+  display: grid;
+  grid-template-columns: 380px minmax(0, 1fr);
+  gap: 32px;
+  align-items: stretch;
+}
+
+.contact-links,
+.contact-form {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form h4 {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 1.25rem;
+  color: var(--primary);
+  font-weight: 850;
+}
+
 .form-group {
-  margin-bottom: 14px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px 18px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.95rem;
+  transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s;
+  outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--accent);
+  background: var(--bg);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 15%, transparent);
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: var(--muted);
+  opacity: 0.7;
+}
+
+.contact-form textarea {
+  resize: vertical;
 }
 
 .send-btn {
   width: 100%;
+  margin-top: 8px;
+}
+
+.form-status {
+  margin-top: 14px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--accent);
 }
 
 /* Footer elements */
