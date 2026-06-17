@@ -145,8 +145,8 @@ export const certifications = [
 
 export const achievements = [
   {
-    title: '55+ LeetCode Problems',
-    description: 'Solved 55+ algorithmic problem-solving challenges on LeetCode with a focus on code optimization.'
+    title: '85+ LeetCode Problems',
+    description: 'Solved 85+ algorithmic problem-solving challenges on LeetCode with a focus on code optimization.'
   },
   {
     title: 'Research Book Chapter',
@@ -156,7 +156,7 @@ export const achievements = [
 
 export const stats = [
   { value: '3', label: 'Projects Built' },
-  { value: '55+', label: 'LeetCode Solved' },
+  { value: '85+', label: 'LeetCode Solved' },
   { value: '2026', label: 'Graduating' },
   { value: '100%', label: 'Responsive' }
 ];
