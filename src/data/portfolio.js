@@ -90,10 +90,10 @@ export const featuredProjects = [
 
 export const otherProjects = [
   {
-    title: 'Workflow-Based File Management System',
+    title: 'File Management System',
     subtitle: 'Backend & Database System',
-    description: 'Built a Java-based file management system for securely managing uploads, downloads, and file metadata. Designed relational database schemas in MySQL and implemented user access control with CRUD operations.',
-    tech: ['Java', 'MySQL', 'JDBC'],
+    description: 'Built a secure database system in Java and MySQL to manage file metadata, uploads, and downloads. Designed and optimized database schemas with primary/foreign keys to ensure data integrity and query performance. Developed user-access logic to grant custom read/write/edit permissions for multiple document formats.',
+    tech: ['Java', 'MySQL'],
     github: 'https://github.com/AdarshRaj-00'
   }
 ];
