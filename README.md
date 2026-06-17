@@ -1,6 +1,6 @@
 # Adarsh Raj — Personal Portfolio Website
 
-A high-fidelity, interactive, and responsive developer portfolio designed for entry-level Software Developer, Full Stack Developer, Java Developer, and Data Analyst roles. Built with React, Vite, TailwindCSS, and Framer Motion.
+A high-fidelity, interactive, and responsive developer portfolio designed for entry-level Software Developer, Full Stack Developer, and Data Analyst roles. Built with React, Vite, TailwindCSS, and Framer Motion.
 
 [![Built with React](https://img.shields.io/badge/React-18.x-61dafb.svg?style=flat-square&logo=react)](https://react.dev/)
 [![Bundled with Vite](https://img.shields.io/badge/Vite-6.x-646cff.svg?style=flat-square&logo=vite)](https://vitejs.dev/)

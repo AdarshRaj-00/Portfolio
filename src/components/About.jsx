@@ -15,7 +15,7 @@ export default function About() {
             I enjoy building practical software that solves real-world problems. My interests include full-stack web development, backend development, databases, and data analytics.
           </p>
           <p className="lead">
-            Currently, I am looking for Software Developer, Java Developer, Full Stack Developer, and Data Analyst opportunities where I can continue learning and contribute to real projects.
+            Currently, I am looking for Software Developer, Full Stack Developer, and Data Analyst opportunities where I can continue learning and contribute to real projects.
           </p>
           
           <div className="about-interests-row">

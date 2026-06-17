@@ -1068,6 +1068,54 @@ h1, h2, h3, h4, p {
   margin-bottom: 18px;
 }
 
+/* Other Projects Grid & Card Layouts */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+.project-card {
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.project-card span:first-of-type {
+  font-size: 0.76rem;
+  font-weight: 850;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
+.project-card h3 {
+  margin: 0 0 12px;
+  font-size: 1.3rem;
+  color: var(--primary);
+  font-weight: 850;
+}
+
+.chips.compact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+  margin-bottom: 24px;
+}
+
+.chips.compact span {
+  background: var(--surface-strong);
+  border: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 750;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
 /* Timeline experience styling */
 .experience-timeline-container {
   position: relative;
@@ -1284,10 +1332,17 @@ h1, h2, h3, h4, p {
 .cu-bg { background: #E31E24; }
 .default-bg { background: var(--primary); }
 
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
 .cert-card {
   display: flex;
   gap: 16px;
   align-items: center;
+  padding: 24px;
 }
 
 .cert-details {
@@ -1614,7 +1669,8 @@ h1, h2, h3, h4, p {
 /* RESPONSIVE LAYOUTS */
 @media (max-width: 1024px) {
   .education-grid,
-  .testimonials-grid {
+  .testimonials-grid,
+  .cert-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -1811,6 +1867,19 @@ h1, h2, h3, h4, p {
 }
 
 /* Achievements styles */
+.achievement-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.achievement-card {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .achievement-title-row {
   display: flex;
   align-items: center;

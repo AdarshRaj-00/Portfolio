@@ -1,7 +1,7 @@
 export const profile = {
   name: 'Adarsh Raj',
-  role: 'Full Stack Developer | Java Developer | Aspiring Data Analyst',
-  roles: ['Full Stack Developer', 'Java Developer', 'Aspiring Data Analyst'],
+  role: 'Full Stack Developer | Aspiring Data Analyst',
+  roles: ['Full Stack Developer', 'Aspiring Data Analyst'],
   intro:
     'Computer Science Engineering student passionate about building full-stack web applications and solving real-world problems using Java, React, Node.js, MongoDB, and SQL.',
   location: 'Mohali, Punjab',
@@ -125,21 +125,21 @@ export const certifications = [
     issuer: 'HackerRank',
     year: '2026',
     credentialId: 'View Certificate',
-    link: 'https://www.hackerrank.com/certificates/c636f1c42f02'
+    link: 'https://www.hackerrank.com/certificates/623f30a7bada'
   },
   {
     name: 'Java Language Features',
     issuer: 'Infosys Springboard',
     year: '2024',
     credentialId: 'View Learning Record',
-    link: '#'
+    link: 'https://drive.google.com/file/d/1_17BAbn0v4I-GYtWCitzhIrc4iUhVVYA/view'
   },
   {
     name: 'Computational Programming with Java Standards',
     issuer: 'Chandigarh University',
     year: '2024',
     credentialId: 'Academic Milestone',
-    link: '#'
+    link: 'https://drive.google.com/file/d/1t2RvAD_6wSZT3OH3p--vUT-k9rrF9Bow/view'
   }
 ];
 
